@@ -1,0 +1,77 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    height: auto;
+    padding-bottom: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+h1 {
+    left: 28px;
+    margin-left: 200px;
+}
+
+
+.links-container {
+    margin-left: auto;
+    display: flex;
+    width: fit-content;
+    gap: 16px;
+    position: absolute;
+    top: 40px;
+    right: 200px;
+}
+
+
+.links-container a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.hero {
+    margin-left: 200px;
+    width: 400px;
+}
+
+
+.hero h2 {
+    margin-bottom: 0px;
+    font-size: 48px;
+}
+
+
+.hero img {
+   width: 300px;
+   position: absolute;
+   right: 200px;
+   top: 140px;
+   height: 280px;
+   background-color: #1F2937;
+}   
+
+
+button {
+    background-color: rgb(82, 182, 240);
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    float: left;
+}
+
+
+
+
+/* Trouble getting the links in line with the logo (look up solution ). Position absoulte used, find better solution */
